@@ -88,7 +88,7 @@ class _MainScreenState extends State<MainScreen> {
                     if (index == 0) {
                       return MyButton(
                         buttontapped: () {
-                          calculatorcontroller.clear();
+                          calculatorcontroller.delete();
                         },
                         buttonText: calculatorcontroller.buttons[index],
                         color: Color.fromRGBO(57, 58, 72, 1),
